@@ -1,0 +1,1945 @@
+{
+  "app_types": [
+    {
+      "type": "Fintech / Personal Finance App",
+      "features": [
+        {
+          "name": "Peer-to-peer transfers",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "p2p-transfers",
+          "survey_question": "Allow users to send money to each other (peer-to-peer transfers)?",
+          "type": "payment-api"
+        },
+        {
+          "name": "Stokvel / group savings",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 4000,
+          "id": "stokvel-group-savings",
+          "survey_question": "Support stokvels or group savings (rounds, payouts, member management)?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Instant micro-loans",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "micro-loans",
+          "survey_question": "Offer or request instant micro-loans with repayment tracking?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Credit score simulator",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "credit-score-simulator",
+          "survey_question": "Show a simple credit score or affordability estimate?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Bill splitting",
+          "complexity": 3,
+          "days_to_complete": 2.5,
+          "price_zar": 2200,
+          "id": "bill-splitting",
+          "survey_question": "Split bills or expenses between friends or group members?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Crypto / fiat wallet basics",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 5200,
+          "id": "crypto-fiat-wallet",
+          "survey_question": "Basic wallet to hold or convert crypto and fiat?",
+          "type": "payment-api"
+        },
+        {
+          "name": "Savings goals and tracking",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "savings-goals",
+          "survey_question": "Set savings goals and track progress?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Transaction history and statements",
+          "complexity": 2,
+          "days_to_complete": 2,
+          "price_zar": 1800,
+          "id": "transaction-history",
+          "survey_question": "View transaction history and download statements?",
+          "type": "entity-crud"
+        }
+      ]
+    },
+    {
+      "type": "On-Demand Service / Gig Economy App",
+      "features": [
+        {
+          "name": "Service provider profiles",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2400,
+          "id": "provider-profiles",
+          "survey_question": "Let service providers (drivers, cleaners, etc.) create and manage their profiles?",
+          "type": "user-personal-data-crud"
+        },
+        {
+          "name": "Real-time GPS tracking",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 4000,
+          "id": "realtime-gps-tracking",
+          "survey_question": "Track service providers or deliveries on a map in real time?",
+          "type": "physical-sensors"
+        },
+        {
+          "name": "Dynamic pricing and booking",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3600,
+          "id": "dynamic-pricing-booking",
+          "survey_question": "Book a service with dynamic or surge pricing?",
+          "type": "date-entity-range"
+        },
+        {
+          "name": "In-app calling and messaging",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "in-app-calling-messaging",
+          "survey_question": "Call or message the provider/customer from within the app?",
+          "type": "chat"
+        },
+        {
+          "name": "Provider ratings and reviews",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "provider-ratings-reviews",
+          "survey_question": "Rate and review service providers after a job?",
+          "type": "entity-metadata-collection-to-new-entity-build"
+        },
+        {
+          "name": "Scheduling and availability calendar",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "provider-availability-calendar",
+          "survey_question": "Let providers set when they are available (calendar/slots)?",
+          "type": "date-entity-range"
+        },
+        {
+          "name": "Booking request workflow",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2400,
+          "id": "booking-request-workflow",
+          "survey_question": "Request a booking and get accepted or declined by the provider?",
+          "type": "entity-states"
+        },
+        {
+          "name": "Payment on completion",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "payment-on-completion",
+          "survey_question": "Pay only when the service is marked complete?",
+          "type": "payment-api"
+        }
+      ]
+    },
+    {
+      "type": "Healthcare / Telemedicine App",
+      "features": [
+        {
+          "name": "Video consultations",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 4800,
+          "id": "video-consultations",
+          "survey_question": "Video calls between patients and doctors or nurses?",
+          "type": "media"
+        },
+        {
+          "name": "Appointment booking",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "appointment-booking-health",
+          "survey_question": "Book, reschedule, or cancel appointments online?",
+          "type": "date-entity-range"
+        },
+        {
+          "name": "Secure patient records",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "patient-records-secure",
+          "survey_question": "Store patient info and medical history securely (access-controlled)?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Symptom checker form",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2400,
+          "id": "symptom-checker",
+          "survey_question": "A form or flow that helps users describe symptoms before a consultation?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Prescription requests",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "prescription-requests",
+          "survey_question": "Request or issue prescriptions (e.g. repeat scripts)?",
+          "type": "entity-states"
+        },
+        {
+          "name": "Pharmacy integration",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3600,
+          "id": "pharmacy-integration",
+          "survey_question": "Link to pharmacies for script collection or delivery?",
+          "type": "api-intergration"
+        },
+        {
+          "name": "Appointment reminders",
+          "complexity": 2,
+          "days_to_complete": 1.5,
+          "price_zar": 1600,
+          "id": "appointment-reminders",
+          "survey_question": "Send SMS or push reminders before an appointment?",
+          "type": "notifications"
+        },
+        {
+          "name": "Doctor or provider profiles",
+          "complexity": 2,
+          "days_to_complete": 2,
+          "price_zar": 2000,
+          "id": "doctor-provider-profiles",
+          "survey_question": "List doctors or providers with specialities and availability?",
+          "type": "user-personal-data-crud"
+        }
+      ]
+    },
+    {
+      "type": "Food Delivery / Restaurant App",
+      "features": [
+        {
+          "name": "Restaurant menu management",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "restaurant-menu-management",
+          "survey_question": "Let restaurants create and update menus (items, prices, options)?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Real-time order tracking",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3600,
+          "id": "order-tracking-delivery",
+          "survey_question": "Track orders and delivery on a map in real time?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Driver assignment",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "driver-assignment",
+          "survey_question": "Assign orders to drivers and track who is delivering?",
+          "type": "entity-crud-and-entity-state"
+        },
+        {
+          "name": "Kitchen order display",
+          "complexity": 3,
+          "days_to_complete": 2.5,
+          "price_zar": 2400,
+          "id": "kitchen-order-display",
+          "survey_question": "Screen or view in the kitchen showing new and in-progress orders?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Promo codes and loyalty points",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "promo-loyalty-food",
+          "survey_question": "Discount codes and loyalty or rewards points for repeat customers?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Payment at checkout",
+          "complexity": 4,
+          "days_to_complete": 3,
+          "price_zar": 2400,
+          "id": "checkout-payment-food",
+          "survey_question": "Pay for orders in the app (card, EFT, cash on delivery)?",
+          "type": "payment-api"
+        },
+        {
+          "name": "Restaurant and dish reviews",
+          "complexity": 3,
+          "days_to_complete": 2.5,
+          "price_zar": 2200,
+          "id": "restaurant-reviews",
+          "survey_question": "Let customers rate restaurants and dishes?",
+          "type": "ecommerce"
+        }
+      ]
+    },
+    {
+      "type": "Real Estate / Property Management App",
+      "features": [
+        {
+          "name": "Property listings with photos and maps",
+          "complexity": 3,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "property-listings-photos-maps",
+          "survey_question": "List properties with photos and location on a map?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Lease agreements with e-sign",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3600,
+          "id": "lease-agreements-esign",
+          "survey_question": "Create lease agreements and get them signed digitally?",
+          "type": "entity-states"
+        },
+        {
+          "name": "Rent reminders (automated)",
+          "complexity": 3,
+          "days_to_complete": 2,
+          "price_zar": 2200,
+          "id": "rent-reminders-auto",
+          "survey_question": "Send automatic rent reminders to tenants?",
+          "type": "comms"
+        },
+        {
+          "name": "Tenant portal",
+          "complexity": 3,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "tenant-portal",
+          "survey_question": "Let tenants log in to pay rent, submit requests, and view documents?",
+          "type": "auth-claims"
+        },
+        {
+          "name": "Maintenance requests",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2400,
+          "id": "maintenance-requests",
+          "survey_question": "Tenants can log maintenance issues and track when they get fixed?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Rent collection (payments)",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3600,
+          "id": "rent-collection-payments",
+          "survey_question": "Collect rent online (EFT, card, debit order)?",
+          "type": "payment-api"
+        }
+      ]
+    },
+    {
+      "type": "Agriculture / Farm Management App",
+      "features": [
+        {
+          "name": "Field mapping (GPS)",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3600,
+          "id": "field-mapping-gps",
+          "survey_question": "Map fields or plots with GPS and boundaries?",
+          "type": "physical-sensors"
+        },
+        {
+          "name": "Yield prediction (basic analytics)",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "yield-prediction",
+          "survey_question": "Basic yield or harvest estimates from your data?",
+          "type": "entity-aggregates"
+        },
+        {
+          "name": "Supplier and buyer connections",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "supplier-buyer-marketplace",
+          "survey_question": "Connect to suppliers or buyers (marketplace for produce, inputs)?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Weather integration",
+          "complexity": 3,
+          "days_to_complete": 2,
+          "price_zar": 2200,
+          "id": "weather-integration-agri",
+          "survey_question": "Show weather or forecasts for your area?",
+          "type": "api-intergration"
+        },
+        {
+          "name": "Crop tracking",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2600,
+          "id": "crop-tracking",
+          "survey_question": "Track crops by field (planting date, variety, inputs)?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Livestock management",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "livestock-management",
+          "survey_question": "Record and track livestock (counts, health, movements)?",
+          "type": "entity-crud"
+        }
+      ]
+    },
+    {
+      "type": "Event Management / Ticketing App",
+      "features": [
+        {
+          "name": "QR code check-in",
+          "complexity": 3,
+          "days_to_complete": 2.5,
+          "price_zar": 2400,
+          "id": "qr-checkin",
+          "survey_question": "Check in attendees by scanning a QR code on their ticket?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Payment for tickets",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "ticket-payments",
+          "survey_question": "Sell tickets and take payment online?",
+          "type": "payment-api"
+        },
+        {
+          "name": "Attendee management",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2600,
+          "id": "attendee-management",
+          "survey_question": "List attendees, track RSVPs, and manage capacity?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Seating chart",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3600,
+          "id": "seating-chart",
+          "survey_question": "Assign seats and show a seating map?",
+          "type": "entity-configuration"
+        },
+        {
+          "name": "Event listings and RSVPs",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2400,
+          "id": "event-listings-rsvp",
+          "survey_question": "Create events and let people RSVP or register?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Ticket types and pricing",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "ticket-types-pricing",
+          "survey_question": "Different ticket types (e.g. VIP, early bird) with different prices?",
+          "type": "ecommerce"
+        }
+      ]
+    },
+    {
+      "type": "Job Board / Recruitment / HR App",
+      "features": [
+        {
+          "name": "Job postings",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2600,
+          "id": "job-postings",
+          "survey_question": "Post jobs and manage listings (title, description, location)?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Resume upload",
+          "complexity": 2,
+          "days_to_complete": 1.5,
+          "price_zar": 1600,
+          "id": "resume-upload",
+          "survey_question": "Let applicants upload a CV or resume?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Interview scheduling",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "interview-scheduling",
+          "survey_question": "Schedule interviews (and optionally sync with calendar)?",
+          "type": "date-entity-range"
+        },
+        {
+          "name": "Applicant tracking",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3600,
+          "id": "applicant-tracking",
+          "survey_question": "Track applicants through stages (applied, shortlisted, offered)?",
+          "type": "entity-states"
+        },
+        {
+          "name": "Company or employer profiles",
+          "complexity": 2,
+          "days_to_complete": 2,
+          "price_zar": 2000,
+          "id": "company-employer-profiles",
+          "survey_question": "Let employers create a profile (company, logo, open roles)?",
+          "type": "user-personal-data-crud"
+        },
+        {
+          "name": "Search and filters for jobs",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2400,
+          "id": "job-search-filters",
+          "survey_question": "Search and filter jobs by location, salary, or category?",
+          "type": "entity-query"
+        }
+      ]
+    },
+    {
+      "type": "Marketplace App",
+      "features": [
+        {
+          "name": "Seller / Vendor management",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "seller-vendor-management",
+          "survey_question": "Allow people to become sellers and manage their own products/services?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Product listings for sellers",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "seller-product-listings",
+          "survey_question": "Let sellers create and manage their own product listings?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Buyer-seller messaging",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2400,
+          "id": "buyer-seller-chat",
+          "survey_question": "Private messaging between buyers and sellers?",
+          "type": "chat"
+        },
+        {
+          "name": "Delivery / collection request tracking",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 4000,
+          "id": "delivery-tracking",
+          "survey_question": "Track deliveries or collections for orders?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Commission & fee calculation",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "commission-calculation",
+          "survey_question": "Automatically calculate platform commission or fees?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Order fulfillment workflow",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "order-fulfillment",
+          "survey_question": "Workflow for sellers to mark orders as shipped/collected?",
+          "type": "entity-states"
+        },
+        {
+          "name": "Review system for sellers & products",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "marketplace-reviews",
+          "survey_question": "Reviews and ratings for sellers and products?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Escrow / secure payments",
+          "complexity": 4.5,
+          "days_to_complete": 6,
+          "price_zar": 5200,
+          "id": "escrow-payments",
+          "survey_question": "Hold money in escrow until buyer receives the item?",
+          "type": "payment-api"
+        },
+        {
+          "name": "Marketplace search & filters",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2800,
+          "id": "marketplace-search",
+          "survey_question": "Advanced search and filters across all sellers?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Seller dashboard",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 4000,
+          "id": "seller-dashboard",
+          "survey_question": "Dedicated dashboard for sellers (sales, orders, earnings)?",
+          "type": "entity-crud"
+        }
+      ]
+    },
+    {
+      "type": "Invoicing App",
+      "features": [
+        {
+          "name": "Register & Login",
+          "complexity": 1,
+          "days_to_complete": 0.5,
+          "price_zar": 800,
+          "id": "user-auth",
+          "survey_question": "Register and login users",
+          "type": "auth"
+        },
+        {
+          "name": "User Authentication",
+          "complexity": 2,
+          "days_to_complete": 1,
+          "price_zar": 1600,
+          "id": "user-roles",
+          "survey_question": "Have users of different types? e.g normal users, admins, consumers, auditors",
+          "type": "auth"
+        },
+        {
+          "name": "User States",
+          "complexity": 1,
+          "days_to_complete": 1,
+          "price_zar": 1600,
+          "id": "user-state-roles",
+          "survey_question": "Have user states? e.g A user can be? Suspended, Active, Online, Offline, Banned, Deactivated",
+          "type": "auth"
+        },
+        {
+          "name": "User State with Claims",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "user-state-claims",
+          "survey_question": "Allow and disallow users to certain pages based on user type or user state? e.g suspended user cannot visit payments or cashout page, or user that is currently restricted can not visit settings page ",
+          "type": "auth-claims"
+        },
+        {
+          "name": "Invoice creation",
+          "complexity": 3,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "invoice-creation",
+          "survey_question": "Create, edit, download or share invoices?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Client management",
+          "complexity": 2,
+          "days_to_complete": 2,
+          "price_zar": 3200,
+          "id": "client-management",
+          "survey_question": "Allow users to manage their clients?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "1 Payment gateway integration",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "payment-integration",
+          "survey_question": "Cater for a payment option? e.g Ozow, Payfast, Ikhokha, Stripe or Peach payments ",
+          "type": "payment-api"
+        },
+        {
+          "name": "Recurring billing",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "recurring-billing",
+          "survey_question": "Allow users to or make recurring transactions?",
+          "type": "payment-api"
+        },
+        {
+          "name": "Shopping cart",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "shopping-cart",
+          "survey_question": "Have a shopping cart?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Process Checkout",
+          "complexity": 1,
+          "days_to_complete": 1,
+          "price_zar": 1600,
+          "id": "process-checkout",
+          "survey_question": "Allow users to or make a payment?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Expense tracking",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "expense-tracking",
+          "survey_question": "Track the spend of money?",
+          "type": "payment-api-and-entity-crud"
+        },
+        {
+          "name": "Generate a report",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "reports-analytics",
+          "survey_question": "Generate reports?",
+          "type": "entity-aggregates"
+        },
+        {
+          "name": "Tax calculation",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "tax-calculation",
+          "survey_question": "Handle tax calculations?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Multi-currency support",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 640,
+          "id": "multi-currency-support",
+          "survey_question": "Support the use and display of multiple currencies? e.g USD, ZAR, PULA, YEN",
+          "type": "financial-math"
+        },
+        {
+          "name": "Investment tracking",
+          "complexity": 5,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "investment-tracking",
+          "survey_question": "Track Investment?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Financial goal management",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "goal-setting",
+          "survey_question": "Make financial plans?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Financial reports",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "financial-reports",
+          "survey_question": "Generate financial reports?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Bank account integration",
+          "complexity": 5,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "bank-account-integration",
+          "survey_question": "Integrate with bank accounts?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Credit score tracking",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "credit-score-tracking",
+          "survey_question": "Track credit scores?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Budget tracking",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "budget-tracking",
+          "survey_question": "Create and manage a budget?",
+          "type": "financial-math"
+        },
+        {
+          "name": "Automated payment reminders",
+          "complexity": 3,
+          "days_to_complete": 2,
+          "price_zar": 2200,
+          "id": "automated-payment-reminders",
+          "survey_question": "Send automatic payment reminders or follow-ups for overdue invoices?",
+          "type": "comms"
+        },
+        {
+          "name": "Customisable invoice templates and branding",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "customisable-invoice-templates-branding",
+          "survey_question": "Allow users to create and save branded/custom invoice templates?",
+          "type": "entity-configuration"
+        },
+        {
+          "name": "E-signatures on invoices",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "e-signatures-invoices",
+          "survey_question": "Allow clients to digitally sign invoices directly in the app?",
+          "type": "entity-states"
+        },
+        {
+          "name": "Smart receipt scanner / OCR for expenses",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3500,
+          "id": "receipt-scanner-ocr-expenses",
+          "survey_question": "Scan receipts with phone camera to auto-create expenses?",
+          "type": "data-read"
+        }
+      ]
+    },
+    {
+      "type": "Quotations App",
+      "features": [
+        {
+          "name": "Quote creation",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "quote-creation",
+          "survey_question": "Allow users to create a service or product quote for a client? e.g Bill of quantities, Insurance quote, Project Cost",
+          "type": "entity-crud"
+        },
+        {
+          "name": "User Customizable Quote templates",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "customizable-templates",
+          "survey_question": "Allow my user's customers to customize their quotes?",
+          "type": "entity-configuration"
+        },
+        {
+          "name": "Approval workflow",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "approval-workflow",
+          "survey_question": "Have an approval workflow? where a user of a certain type will submit an item for approval to a user of another type e.g a normal user submits a request to an admin user ",
+          "type": "entity-states"
+        },
+        {
+          "name": "Form Creation",
+          "complexity": 3,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "form-creation",
+          "survey_question": "Allow users to create a form to collect data from other users?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Table Creation",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "table-creation",
+          "survey_question": "Allow users to create a table viewing results of a form?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "User Theming",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "user-theming",
+          "survey_question": "Allow users to change the app theme?",
+          "type": "entity-crud"
+        },
+
+        {
+          "name": "DOC File export",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "docx-export",
+          "survey_question": "Download or Export data as Microsoft Word Docx files?",
+          "type": "data-conversion"
+        },
+        {
+          "name": "Image File export",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "img-export",
+          "survey_question": "Download or Export data as a picture? ",
+          "type": "data-conversion"
+        },
+
+        {
+          "name": "PDF export",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "pdf-export",
+          "survey_question": "Download or Export data as PDF files?",
+          "type": "data-conversion"
+        },
+        {
+          "name": "Excel export",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 3800,
+          "id": "excel-export",
+          "survey_question": "Download or Export data as Mircosoft Excel xlsx files?",
+          "type": "data-conversion"
+        },
+        {
+          "name": "Edit PDF files",
+          "complexity": 4.5,
+          "days_to_complete": 8,
+          "price_zar": 8000,
+          "id": "pdf-edit",
+          "survey_question": "Edit a PDF file?",
+          "type": "pdf-templating"
+        },
+        {
+          "name": "Read Excel files",
+          "complexity": 3.5,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "excel-parse",
+          "survey_question": "Get data from an Mircosoft Excel xlsx file?",
+          "type": "data-parse"
+        },
+        {
+          "name": "Image File Upload",
+          "complexity": 0.5,
+          "days_to_complete": 0.5,
+          "price_zar": 750,
+          "id": "img-import",
+          "survey_question": "Upload or import  pictures? ",
+          "type": "data-read"
+        },
+        {
+          "name": "Image File Read/Parse (OCR)",
+          "complexity": 4.2,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "img-parse",
+          "survey_question": "Get data from pictures? ",
+          "type": "data-read"
+        },
+        {
+          "name": "PDF File Read/Parse",
+          "complexity": 5.5,
+          "days_to_complete": 6,
+          "price_zar": 9600,
+          "id": "pdf-import",
+          "survey_question": "Get data from pdf files? ",
+          "type": "data-read"
+        },
+        {
+          "name": "Video content creation",
+          "complexity": 5,
+          "days_to_complete": 12,
+          "price_zar": 19200,
+          "id": "video-generation",
+          "survey_question": "Create video content? e.g Create an educational course or Create a funny video to share with others",
+          "type": "media"
+        },
+        {
+          "name": "Image content creation",
+          "complexity": 4,
+          "days_to_complete": 12,
+          "price_zar": 19200,
+          "id": "image-generation",
+          "survey_question": "Create image content? e.g Create a meme, Create a Poster image",
+          "type": "media"
+        },
+        {
+          "name": "Video content upload and editing",
+          "complexity": 4,
+          "days_to_complete": 12,
+          "price_zar": 19200,
+          "id": "video-upload",
+          "survey_question": "Upload and edit video content? ",
+          "type": "media"
+        },
+        {
+          "name": "Image content upload and editing",
+          "complexity": 4,
+          "days_to_complete": 12,
+          "price_zar": 19200,
+          "id": "image-upload",
+          "survey_question": "Upload and edit image content? ",
+          "type": "media"
+        },
+        {
+          "name": "Image edit collaboration",
+          "complexity": 4,
+          "days_to_complete": 12,
+          "price_zar": 19200,
+          "id": "collective-image-upload",
+          "survey_question": "Collaborate with others to upload and edit an Image? ",
+          "type": "media"
+        },
+        {
+          "name": "Video edit collaboration",
+          "complexity": 5,
+          "days_to_complete": 15,
+          "price_zar": 24000,
+          "id": "collective-video-upload",
+          "survey_question": "Collaborate with others to upload and edit a Video? ",
+          "type": "media"
+        },
+        {
+          "name": "File Conversion",
+          "complexity": 3.5,
+          "days_to_complete": 7,
+          "price_zar": 11200,
+          "id": "file-convert",
+          "survey_question": "Convert a file from on format to another? e.g JPG to PNG? or JPG to PDF, MP4 to MP3 ",
+          "type": "media"
+        },
+        {
+          "name": "File Download or Upload",
+          "complexity": 0.1,
+          "days_to_complete": 0.01,
+          "price_zar": 100,
+          "id": "file-download",
+          "survey_question": "Download/upload files",
+          "type": "media"
+        },
+
+        {
+          "name": "Bulk File Download or Upload",
+          "complexity": 0.5,
+          "days_to_complete": 0.2,
+          "price_zar": 2000,
+          "id": "bulk-download",
+          "survey_question": "Download/upload files in bulk",
+          "type": "media"
+        },
+        {
+          "name": "Compresed Bulk File Download or Upload",
+          "complexity": 2,
+          "days_to_complete": 1,
+          "price_zar": 1600,
+          "id": "compressed-bulk-download",
+          "survey_question": "Compress & download/upload files in bulk",
+          "type": "media"
+        },
+
+        {
+          "name": "Scheduled reminders/activities",
+          "complexity": 3.5,
+          "days_to_complete": 2,
+          "price_zar": 3200,
+          "id": "follow-up-reminders",
+          "survey_question": "Allow users to or schedule reminders opr activities",
+          "type": "entity-action-job-scheduling"
+        },
+        {
+          "name": "Item Type Analytics",
+          "complexity": 3,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "analytics",
+          "survey_question": "Get analytics for an item type? e.g Quote analytics, Payment analytics",
+          "type": "entity-metadata-collection-to-new-entity-build"
+        },
+        {
+          "name": "3rd Party Integrations (APIs)",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "integrations-external",
+          "survey_question": "Integrate with another system? e.g Get or send information to Sage or Facebook, Whatsapp, Paypal, FICA, Shoprite, SASSA etc",
+          "type": "api-intergration"
+        },
+        {
+          "name": "API Creation",
+          "complexity": 3,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "integrations-internal",
+          "survey_question": "Be accesible to other systems via api",
+          "type": "api-intergration"
+        },
+        {
+          "name": "Digital e-signatures on quotes",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "e-signatures-quotes",
+          "survey_question": "Allow clients to digitally sign quotes/proposals?",
+          "type": "entity-states"
+        },
+        {
+          "name": "Reusable content library / proposal blocks",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "reusable-content-library-proposals",
+          "survey_question": "Store and reuse sections, pricing tables, or terms across quotes?",
+          "type": "entity-configuration"
+        },
+        {
+          "name": "CRM sync",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "crm-sync-quotes",
+          "survey_question": "Automatically pull client info from CRM like Salesforce or HubSpot?",
+          "type": "api-intergration"
+        }
+      ]
+    },
+    {
+      "type": "Social Media App",
+      "features": [
+        {
+          "name": "User profiles",
+          "complexity": 2,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "user-profiles",
+          "survey_question": "Allow users to create, edit and showcase their user profiles?",
+          "type": "user-personal-data-crud"
+        },
+        {
+          "name": "Social Feed",
+          "complexity": 4.2,
+          "days_to_complete": 8,
+          "price_zar": 8000,
+          "id": "feed",
+          "survey_question": "Scroll through feed of things? See a feed of posts created by other users or new products added by vendors, funny videos, memes, Job Posts, Articles",
+          "type": "entity-feed-infinite-scroll"
+        },
+        {
+          "name": "Social Likes, Comments, and Shares",
+          "complexity": 2.5,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "likes-comments-shares-interaction",
+          "survey_question": "Likes, comment, or share a thing? e.g Share a post, Like a Product, Comment on a proposal, Comment on a document",
+          "type": "entity-metadata-collection-to-new-entity-build"
+        },
+        {
+          "name": "Social Replies",
+          "complexity": 2,
+          "days_to_complete": 3.5,
+          "price_zar": 5600,
+          "id": "replies-interaction",
+          "survey_question": "Reply to a comment or a chat message",
+          "type": "sub-entity-same-entity-type-interaction"
+        },
+        {
+          "name": "Social chat",
+          "complexity": 3,
+          "days_to_complete": 3.6,
+          "price_zar": 4500,
+          "id": "direct-messaging",
+          "survey_question": "Send and receive messages to or from another user? e.g Chat Inbox or Group or Channel",
+          "type": "chat"
+        },
+        {
+          "name": "Encrypted Social chat",
+          "complexity": 4,
+          "days_to_complete": 6,
+          "price_zar": 9600,
+          "id": "encrypted-direct-messaging",
+          "survey_question": "Send and receive encrypted messages to or from another user? e.g End to End encrypted chats",
+          "type": "chat"
+        },
+        {
+          "name": "Notifications",
+          "complexity": 3,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "notifications",
+          "survey_question": "Get notifications for activities? e.g In-App notifications, SMS, Email, Push",
+          "type": "notifications"
+        },
+        {
+          "name": "Petition creation",
+          "complexity": 2,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "petition",
+          "survey_question": "Create a petition, poll or proposal on your App?",
+          "type": "voting-and-support"
+        },
+        {
+          "name": "Groups/Communities Creation",
+          "complexity": 2,
+          "days_to_complete": 3.5,
+          "price_zar": 5600,
+          "id": "groups-communities-crud",
+          "survey_question": "Create groups or communities with other users? eg create a chat Group or create a Cat Lovers user group",
+          "type": "entity-collections-and-claims"
+        },
+        {
+          "name": "Groups/Communities Management",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "groups-communities-manage",
+          "survey_question": "Manage or Admin groups or communities with other users? eg Run a Chat group or Manage a community of product owners",
+          "type": "entity-collections-and-claims"
+        },
+        {
+          "name": "Groups/Communities Portal",
+          "complexity": 2,
+          "days_to_complete": 6,
+          "price_zar": 9600,
+          "id": "groups-communities-portal",
+          "survey_question": "Allow user to have a portal for groups or communities with other users?",
+          "type": "entity-collections-and-claims"
+        },
+        {
+          "name": "Media sharing",
+          "complexity": 1,
+          "days_to_complete": 1,
+          "price_zar": 1600,
+          "id": "media-sharing",
+          "survey_question": "Share file? e.g send a picture or share a gif",
+          "type": "media"
+        },
+        {
+          "name": "Media Streaming",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "media-streaming",
+          "survey_question": "Stream media file? e.g watch a video or listen to a song?",
+          "type": "media"
+        },
+        {
+          "name": "Live Streaming",
+          "complexity": 5,
+          "days_to_complete": 15,
+          "price_zar": 24000,
+          "id": "live-streaming",
+          "survey_question": "Stream live?",
+          "type": "media"
+        },
+        {
+          "name": "Search & Discovery",
+          "complexity": 2,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "search-discovery",
+          "survey_question": "Search for items e.g Search for a product or search for a friend or search for a company?",
+          "type": "entity-query"
+        },
+        {
+          "name": "Privacy settings",
+          "complexity": 3.6,
+          "days_to_complete": 2,
+          "price_zar": 3200,
+          "id": "privacy-settings",
+          "survey_question": "Have privacy settings?",
+          "type": "privacy"
+        },
+        {
+          "name": "Stories / ephemeral content",
+          "complexity": 4,
+          "days_to_complete": 6,
+          "price_zar": 4800,
+          "id": "stories-ephemeral-content",
+          "survey_question": "Allow users to post temporary Stories that disappear after 24 hours?",
+          "type": "media"
+        },
+        {
+          "name": "Content reporting and moderation tools",
+          "complexity": 3.5,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "content-reporting-moderation",
+          "survey_question": "Include content reporting and basic moderation features?",
+          "type": "entity-states"
+        },
+        {
+          "name": "Hashtags, trending, and basic algorithm feed",
+          "complexity": 3,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "hashtags-trending-feed",
+          "survey_question": "Support hashtags and trending discovery in the feed?",
+          "type": "entity-query"
+        },
+        {
+          "name": "Creator analytics dashboard",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 3500,
+          "id": "creator-analytics-dashboard",
+          "survey_question": "Give users analytics on their own posts (views, likes, reach)?",
+          "type": "entity-metadata-collection-to-new-entity-build"
+        }
+      ]
+    },
+    {
+      "type": "Project Management App",
+      "features": [
+        {
+          "name": "Task management",
+          "complexity": 2,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "task-management",
+          "survey_question": "Manage Tasks?",
+          "type": "entity-crud-and-entity-state"
+        },
+        {
+          "name": "Timelines",
+          "complexity": 2,
+          "days_to_complete": 2,
+          "price_zar": 3200,
+          "id": "project-timelines",
+          "survey_question": "Plan timelines or create a range of times? e.g set available times for when other users can make an appointment, plan when a project will start and end ",
+          "type": "date-entity-range"
+        },
+        {
+          "name": "Collaboration tools",
+          "complexity": 5,
+          "days_to_complete": 12,
+          "price_zar": 19200,
+          "id": "collaboration-tools",
+          "survey_question": "Collaborate with other users",
+          "type": "entity-collections-and-claims"
+        },
+        {
+          "name": "Time tracking",
+          "complexity": 5,
+          "days_to_complete": 15,
+          "price_zar": 24000,
+          "id": "time-tracking",
+          "survey_question": "Track how a user spent their time on a device?",
+          "type": "date-time"
+        },
+        {
+          "name": "Item Boards",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "kanban-boards",
+          "survey_question": "Allow users to create boards with certain items in a certain state? e.g Todo, Doing, Done boards for project management?",
+          "type": "entity-collections"
+        },
+
+        {
+          "name": "Community Perfomance",
+          "complexity": 4,
+          "days_to_complete": 6,
+          "price_zar": 9600,
+          "id": "team-performance-management",
+          "survey_question": "Manage team or group or community performance?",
+          "type": "entity-collections-metadata"
+        },
+        {
+          "name": "Gantt charts / advanced timelines with dependencies",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 4000,
+          "id": "gantt-charts-dependencies",
+          "survey_question": "Show project timelines as Gantt charts with task dependencies?",
+          "type": "date-entity-range"
+        },
+        {
+          "name": "Task dependencies and subtasks",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "task-dependencies-subtasks",
+          "survey_question": "Link tasks with dependencies or break them into subtasks?",
+          "type": "entity-crud-and-entity-state"
+        },
+        {
+          "name": "Resource/workload allocation view",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 4000,
+          "id": "resource-workload-allocation",
+          "survey_question": "View team workload and allocate resources across projects?",
+          "type": "entity-collections-metadata"
+        },
+        {
+          "name": "Milestones",
+          "complexity": 2,
+          "days_to_complete": 2,
+          "price_zar": 1600,
+          "id": "milestones",
+          "survey_question": "Set project milestones?",
+          "type": "entity-crud-and-entity-state"
+        }
+      ]
+    },
+    {
+      "type": "Educational App",
+      "features": [
+        {
+          "name": "Learning Material",
+          "complexity": 5,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "learning material",
+          "survey_question": "Create learning material for other users?",
+          "type": "learning-management-system"
+        },
+
+        {
+          "name": "Learning Assessments ",
+          "complexity": 4,
+          "days_to_complete": 7,
+          "price_zar": 11200,
+          "id": "assessments-quizzes",
+          "survey_question": "Allow users to create learning assessments and quizzes?",
+          "type": "learning-management-system"
+        },
+        {
+          "name": "Gamification elements",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "gamification-elements",
+          "survey_question": "Gamification elements? e.g User levels or User points",
+          "type": "gamification"
+        },
+        {
+          "name": "Progress tracking and learner dashboards",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "progress-tracking-learner-dashboards",
+          "survey_question": "Show learners their course progress and completion dashboards?",
+          "type": "learning-management-system"
+        },
+        {
+          "name": "Certificate generation",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "certificate-generation-pdf",
+          "survey_question": "Automatically generate and download completion certificates?",
+          "type": "data-conversion"
+        },
+        {
+          "name": "Discussion forums / comments per lesson",
+          "complexity": 3.5,
+          "days_to_complete": 4,
+          "price_zar": 2800,
+          "id": "discussion-forums-comments-lessons",
+          "survey_question": "Include discussion forums or comments under learning material?",
+          "type": "entity-metadata-collection-to-new-entity-build"
+        }
+      ]
+    },
+    {
+      "type": "Messaging App",
+      "features": [
+        {
+          "name": "Send SMS",
+          "complexity": 4,
+          "days_to_complete": 2.5,
+          "price_zar": 4000,
+          "id": "sms-messaging",
+          "survey_question": "Send SMSes?",
+          "type": "comms"
+        },
+        {
+          "name": "Send Email",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "email-messaging",
+          "survey_question": "Send Emails?",
+          "type": "comms"
+        },
+        {
+          "name": "Voice and video calls",
+          "complexity": 5,
+          "days_to_complete": 10,
+          "price_zar": 16000,
+          "id": "voice-video-calls",
+          "survey_question": "Voice and video calls?",
+          "type": "comms"
+        },
+        {
+          "name": "Send Push notifications",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "push-notifications",
+          "survey_question": "Send push notifications?",
+          "type": "comms"
+        },
+        {
+          "name": "Disappearing / self-destruct messages",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "disappearing-messages",
+          "survey_question": "Allow disappearing or self-destructing messages?",
+          "type": "chat"
+        },
+        {
+          "name": "Message editing and deletion",
+          "complexity": 2.5,
+          "days_to_complete": 2,
+          "price_zar": 1800,
+          "id": "message-editing-deletion",
+          "survey_question": "Let users edit or delete sent messages?",
+          "type": "chat"
+        },
+        {
+          "name": "Read receipts, typing indicators, voice messages",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2400,
+          "id": "read-receipts-typing-voice-messages",
+          "survey_question": "Show read receipts, typing indicators, and support voice messages?",
+          "type": "chat"
+        }
+      ]
+    },
+    {
+      "type": "Fitness App",
+      "features": [
+        {
+          "name": "Workout plans",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "workout-plans",
+          "survey_question": "Create activity plans? e.g workout plans or party plans or event plan?"
+        },
+        {
+          "name": "Track Physical Movement",
+          "complexity": 3,
+          "days_to_complete": 5,
+          "price_zar": 4500,
+          "id": "exercise-tracking",
+          "survey_question": "Do physical body movement tracking? e.g Exercise tracking features or Car movement and direction tracking",
+          "type": "physical-sensors"
+        },
+        {
+          "name": "Health Diet",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "nutrition-tracking",
+          "survey_question": "Have diet & nutrition tracking?",
+          "type": "item-surveying-sensors"
+        },
+
+        {
+          "name": "Integrations with wearables",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "integrations-wearables",
+          "survey_question": "Integrate with wearable tech? e.g Smart watch",
+          "type": "physical-sensors"
+        },
+        {
+          "name": "Challenges and achievements",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "challenges-achievements",
+          "survey_question": "Have gamification elements such as challenges and achievements?",
+          "type": "gamification"
+        },
+        {
+          "name": "GPS route tracking",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "gps-route-tracking",
+          "survey_question": "Track outdoor activities with GPS mapping?",
+          "type": "physical-sensors"
+        },
+        {
+          "name": "AI workout recommendations / personalised plans",
+          "complexity": 4.5,
+          "days_to_complete": 5,
+          "price_zar": 4000,
+          "id": "ai-workout-recommendations",
+          "survey_question": "Generate AI-powered personalised workout or meal plans?",
+          "type": "physical-sensors"
+        },
+        {
+          "name": "Progress charts and personal records",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "progress-charts-personal-records",
+          "survey_question": "Show progress graphs and personal best records over time?",
+          "type": "entity-metadata-collection-to-new-entity-build"
+        }
+      ]
+    },
+    {
+      "type": "E-commerce App",
+      "features": [
+        {
+          "name": "Product search and filters",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "product-search-filters",
+          "survey_question": "Search and filter items based on properties? e.g search and filter products based on brand and category",
+          "type": "ecommerce"
+        },
+        {
+          "name": "User reviews and ratings",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2200,
+          "id": "user-reviews-ratings",
+          "survey_question": "Reviews and rate and item?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Item Requests",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "order-management",
+          "survey_question": "Request an item from another user? e.g order a bag of onions",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Item Request Tracking",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 2400,
+          "id": "order-tracking",
+          "survey_question": "Track a requested item from another user? e.g track my order",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Inventory / stock management",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "inventory-stock-management",
+          "survey_question": "Track product stock levels and low-stock alerts?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Product variants",
+          "complexity": 3.5,
+          "days_to_complete": 3,
+          "price_zar": 2800,
+          "id": "product-variants",
+          "survey_question": "Support product variations like sizes and colours?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Wishlist / favourites",
+          "complexity": 2,
+          "days_to_complete": 2,
+          "price_zar": 1600,
+          "id": "wishlist-favourites",
+          "survey_question": "Allow users to save items to a wishlist?",
+          "type": "ecommerce"
+        },
+        {
+          "name": "Discounts, coupons, and abandoned-cart recovery",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 3200,
+          "id": "discounts-coupons-abandoned-cart",
+          "survey_question": "Offer discount codes and recover abandoned shopping carts?",
+          "type": "ecommerce"
+        }
+      ]
+    },
+    {
+      "type": "Cross-cutting / Common",
+      "features": [
+        {
+          "name": "Two-factor authentication (2FA)",
+          "complexity": 3,
+          "days_to_complete": 2,
+          "price_zar": 3200,
+          "id": "two-factor-auth",
+          "survey_question": "Use two-factor authentication (2FA) for login? e.g SMS or authenticator app",
+          "type": "auth"
+        },
+        {
+          "name": "SSO / Google or Microsoft login",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 3600,
+          "id": "sso-login",
+          "survey_question": "Allow login with Google, Microsoft or other SSO providers?",
+          "type": "auth"
+        },
+        {
+          "name": "Session management",
+          "complexity": 2,
+          "days_to_complete": 1.5,
+          "price_zar": 2400,
+          "id": "session-management",
+          "survey_question": "Session timeout or log out from other devices?",
+          "type": "auth"
+        },
+        {
+          "name": "Passwordless / magic link login",
+          "complexity": 3,
+          "days_to_complete": 2,
+          "price_zar": 2800,
+          "id": "passwordless-login",
+          "survey_question": "Passwordless or magic link login? e.g sign in via email link",
+          "type": "auth"
+        },
+        {
+          "name": "Dark mode / theme toggle",
+          "complexity": 2,
+          "days_to_complete": 2,
+          "price_zar": 2400,
+          "id": "dark-mode",
+          "survey_question": "Dark mode or theme toggle?",
+          "type": "entity-crud"
+        },
+        {
+          "name": "Basic accessibility (WCAG)",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 3600,
+          "id": "accessibility-wcag",
+          "survey_question": "Basic accessibility (WCAG) compliance? e.g keyboard nav, screen reader support",
+          "type": "ux"
+        },
+        {
+          "name": "Offline support / PWA",
+          "complexity": 4,
+          "days_to_complete": 5,
+          "price_zar": 6000,
+          "id": "offline-pwa",
+          "survey_question": "Offline support or installable PWA?",
+          "type": "ux"
+        },
+        {
+          "name": "Audit log",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 3200,
+          "id": "audit-log",
+          "survey_question": "Keep an audit log of who did what and when?",
+          "type": "data-compliance"
+        },
+        {
+          "name": "Backup and restore",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 4800,
+          "id": "backup-restore",
+          "survey_question": "Backup and restore data?",
+          "type": "data-compliance"
+        },
+        {
+          "name": "Data export / deletion (GDPR-style)",
+          "complexity": 3,
+          "days_to_complete": 2.5,
+          "price_zar": 3000,
+          "id": "data-export-deletion",
+          "survey_question": "Let users export or delete their data (GDPR-style)?",
+          "type": "data-compliance"
+        },
+        {
+          "name": "Data retention rules",
+          "complexity": 3,
+          "days_to_complete": 2,
+          "price_zar": 2800,
+          "id": "data-retention",
+          "survey_question": "Configurable data retention rules? e.g auto-delete after X months",
+          "type": "data-compliance"
+        },
+        {
+          "name": "Caching (e.g Redis or CDN)",
+          "complexity": 3,
+          "days_to_complete": 2,
+          "price_zar": 2800,
+          "id": "caching",
+          "survey_question": "Caching for performance? e.g Redis or CDN",
+          "type": "performance"
+        },
+        {
+          "name": "Rate limiting / abuse protection",
+          "complexity": 2,
+          "days_to_complete": 1.5,
+          "price_zar": 2400,
+          "id": "rate-limiting",
+          "survey_question": "Rate limiting or abuse protection?",
+          "type": "performance"
+        },
+        {
+          "name": "Real-time updates (WebSockets)",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 4800,
+          "id": "realtime-websockets",
+          "survey_question": "Real-time updates? e.g live data without refresh (WebSockets)",
+          "type": "performance"
+        },
+        {
+          "name": "Multi-language / i18n",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 4800,
+          "id": "multi-language-i18n",
+          "survey_question": "Support multiple languages (i18n)?",
+          "type": "content"
+        },
+        {
+          "name": "Rich text editor (WYSIWYG)",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 3600,
+          "id": "rich-text-editor",
+          "survey_question": "Rich text or WYSIWYG editor for content?",
+          "type": "content"
+        },
+        {
+          "name": "File or document versioning",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 4800,
+          "id": "document-versioning",
+          "survey_question": "Version history for files or documents?",
+          "type": "content"
+        },
+        {
+          "name": "Webhooks (outgoing events)",
+          "complexity": 3,
+          "days_to_complete": 2.5,
+          "price_zar": 3200,
+          "id": "webhooks",
+          "survey_question": "Send webhooks when events happen? e.g notify external systems",
+          "type": "api-intergration"
+        },
+        {
+          "name": "OAuth (login with Google, GitHub etc.)",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 3600,
+          "id": "oauth-providers",
+          "survey_question": "Login with Google, GitHub or other OAuth providers?",
+          "type": "auth"
+        },
+        {
+          "name": "Calendar sync (Google, Outlook)",
+          "complexity": 4,
+          "days_to_complete": 4,
+          "price_zar": 4800,
+          "id": "calendar-sync",
+          "survey_question": "Sync with Google Calendar, Outlook or other calendars?",
+          "type": "api-intergration"
+        },
+        {
+          "name": "Biometric login",
+          "complexity": 2,
+          "days_to_complete": 1.5,
+          "price_zar": 1800,
+          "id": "biometric-login",
+          "survey_question": "Allow biometric (fingerprint/face) login?",
+          "type": "auth"
+        },
+        {
+          "name": "User onboarding / guided tour",
+          "complexity": 2,
+          "days_to_complete": 2,
+          "price_zar": 1600,
+          "id": "user-onboarding-guided-tour",
+          "survey_question": "Include a first-time user onboarding tutorial?",
+          "type": "ux"
+        },
+        {
+          "name": "Forgot password and email verification",
+          "complexity": 1.5,
+          "days_to_complete": 1,
+          "price_zar": 1200,
+          "id": "forgot-password-email-verification",
+          "survey_question": "Include forgot-password and email verification?",
+          "type": "auth"
+        },
+        {
+          "name": "Cookie consent banner and basic GDPR notice",
+          "complexity": 1,
+          "days_to_complete": 0.5,
+          "price_zar": 800,
+          "id": "cookie-consent-gdpr",
+          "survey_question": "Show cookie consent banner for GDPR compliance?",
+          "type": "data-compliance"
+        },
+        {
+          "name": "In-app help / FAQ or support ticket system",
+          "complexity": 3,
+          "days_to_complete": 3,
+          "price_zar": 2400,
+          "id": "in-app-help-support-tickets",
+          "survey_question": "Include an in-app help centre or support ticket system?",
+          "type": "entity-crud"
+        }
+      ]
+    }
+  ]
+}

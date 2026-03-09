@@ -1,0 +1,71 @@
+{
+  "type": "Static Website",
+  "features": [
+    {
+      "name": "Fixed Content",
+      "complexity": 1,
+      "days_to_complete": 1,
+      "price_zar": 550
+    },
+    {
+      "name": "Fast Loading Speed Optimization",
+      "complexity": 2,
+      "days_to_complete": 2,
+      "price_zar": 1200
+    },
+    {
+      "name": "Basic Navigation",
+      "complexity": 2,
+      "days_to_complete": 2,
+      "price_zar": 750
+    },
+    {
+      "name": "Responsive Design",
+      "complexity": 3,
+      "days_to_complete": 3,
+      "price_zar": 1500
+    },
+    {
+      "name": "Media Elements Integration",
+      "complexity": 2,
+      "days_to_complete": 2,
+      "price_zar": 5250
+    },
+    {
+      "name": "Basic Forms",
+      "complexity": 3,
+      "days_to_complete": 3,
+      "price_zar": 1500
+    },
+    {
+      "name": "SEO Features",
+      "complexity": 3,
+      "days_to_complete": 3,
+      "price_zar": 6000
+    },
+    {
+      "name": "Minimal Interactivity",
+      "complexity": 2,
+      "days_to_complete": 2,
+      "price_zar": 3750
+    },
+    {
+      "name": "Static File Hosting Setup",
+      "complexity": 2,
+      "days_to_complete": 1,
+      "price_zar": 3000
+    },
+    {
+      "name": "Cross-Browser Compatibility",
+      "complexity": 2,
+      "days_to_complete": 2,
+      "price_zar": 800
+    },
+    {
+      "name": "Scalability Setup",
+      "complexity": 2,
+      "days_to_complete": 2,
+      "price_zar": 3750
+    }
+  ]
+}

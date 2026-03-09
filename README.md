@@ -1,5 +1,7 @@
 # Developer quote tool
 
+[![Test](https://github.com/AyabongaQwabi/sa-dev-quote-tool/actions/workflows/test.yml/badge.svg)](https://github.com/AyabongaQwabi/sa-dev-quote-tool/actions/workflows/test.yml)
+
 A developer-centric quote tool for pricing app and website projects. Set your **hourly rate** and **years of experience**, select app type and features from configurable JSON, and adjust the **desired timeline** to see a dynamic price (longer timeline = discount with floor, shorter = premium). Open-source, self-hostable, and customizable via a single config file.
 
 ## Quick start
